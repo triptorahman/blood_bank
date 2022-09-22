@@ -1,0 +1,59 @@
+/******************/
+xampp version- 7.4.16
+PHP version 7.4.16
+Database Mysql
+
+//Project Environment and Setup
+
+1. Install xampp and place 'project' folder to htdocs. 
+2. Open xampp and start apache & mysql
+3. Go local host and Create a table named 'blog'
+4. Run 'CMD' from project folder.
+5. Type Artisan command for Database Migration "Php Artisan migrate --seed"
+6. Open Project frow browser "localhost/News_portal"
+
+
+//Project Description
+1. 3 type User.
+ 	->Admin 
+ 			[* Can control the project.
+ 			 * Give author's permission.
+ 			 * Accept/declined author's Post.
+ 			 * Create/Edit/Delete Post Category.
+ 			 * Update Author Information]
+ 	
+
+ 	->Author 
+ 			[* Can create post, Edit post, Delete post according to his permissions.
+ 			 * Update Information. ]
+   	->Visitor 
+ 			[* Visit Website
+ 			 * See post ]
+
+//Use Guide
+
+1. Click login. 
+	//for Admin Panel
+	email:admin@email.com
+	password:password
+
+	//for Author Panel
+	Register First
+
+2. Create Author from Register.
+3. Give Specific Permission to Author. [Admin Panel]
+4. Create Post Category From [Admin Panel]
+5. Create Post from Author Panel.
+
+**If necesarry clear cache for the project
+
+php artisan cache:clear
+php artisan route:clear
+php artisan config:clear
+
+
+/*************************/
+For any Query
+Contact with me
+Email:triptorahman@gmail.com
+phone:01714491616

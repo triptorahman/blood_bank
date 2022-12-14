@@ -60,8 +60,7 @@
                                 @if($row->status==2)
                                 <a href="{{route('bloodneed.edit', $row['id'])}}"><i class="fas fa-edit"></i> Edit</a>{!! "&nbsp;&nbsp;" !!}
                                 <a href="{{route('bloodneed.delete', $row['id'])}}"><i class="fas fa-trash"></i> Delete</a>
-                                @else
-                                <a href="{{route('bloodneed.response', $row['id'])}}"><i class="fas fa-edit"></i> View</a>{!! "&nbsp;&nbsp;" !!}
+                               
                                 @endif
                                 
                                 

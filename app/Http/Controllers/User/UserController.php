@@ -24,23 +24,7 @@ class UserController extends Controller
     public function index()
     {
         $id = Auth::user()->id;
-        // $id = Auth::user()->id;
-
-       
-
-        // $path = storage_path() . "/app/district.json"; // ie: /var/www/laravel/app/storage/json/filename.json
-       
-        // $json = json_decode(file_get_contents($path), true); 
-        // // dd($json);
-
-        // foreach ($json['districts'] as $key => $district) {
-
-            
-        //     DB::table('district')->insert(
-        //         ['id' => $district['id'], 'division_id' => $district['division_id'],'name' =>$district['name']]
-        //         );
-            
-        // }
+        
         
 
         $user_id = Auth::user()->id;

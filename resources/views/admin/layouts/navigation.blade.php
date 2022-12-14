@@ -21,7 +21,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>User Management</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-list-ul"></i><a href="{{route('admin-usermanagement.list')}}">User List</a></li>
-                            {{-- <li><i class="fa fa-table"></i><a href="">Change Password</a></li> --}}
+                           
                         </ul>
                     </li>
 
@@ -29,23 +29,7 @@
                   
 
                   
-                    <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-medkit"></i>Blood Request History</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-calendar"></i><a href="{{route('post.list')}}">Total Request</a></li>
-                            <li><i class="fa fa-calendar-check-o"></i><a href="{{route('today-post.list')}}">Today's Request</a></li>
-                            
-                        </ul>
-                    </li>
-
-                    <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tint"></i>Blood Donate History</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-calendar"></i><a href="{{route('donate.list')}}">Total Donate</a></li>
-                            <li><i class="fa fa-calendar-check-o"></i><a href="{{route('today-donate.list')}}">Today's Donate</a></li>
-                            
-                        </ul>
-                    </li>
+                    
                    
                    
                     

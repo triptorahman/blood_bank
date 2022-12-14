@@ -40,14 +40,7 @@
                         </ul>
                     </li>
 
-                    <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-medkit"></i>Donate Blood</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-list-ol"></i><a href="{{route('donate.available')}}">Active Blood Request</a></li>
-                            <li><i class="fa fa-list-ol"></i><a href="{{route('donate.history')}}">My Blood Donate History</a></li>
-                            
-                        </ul>
-                    </li>
+                    
 
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-medkit"></i>Donar's List</a>
@@ -63,14 +56,7 @@
                   
 
                   
-                    {{-- <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>Donar List</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-table"></i><a href="">Active List</a></li>
-                            <li><i class="fa fa-table"></i><a href="">Pending List</a></li>
-                            
-                        </ul>
-                    </li> --}}
+                   
                    
                    
                     
